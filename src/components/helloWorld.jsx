@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { PropTypes } from 'react'
+
 export default class HelloWorld extends React.Component {
     constructor() {
         super();
@@ -13,5 +14,9 @@ export default class HelloWorld extends React.Component {
         	</div>
         ) 
     }
+}
+
+HelloWorld.propTypes = {
+  name: PropTypes.string.isRequired
 }
 
