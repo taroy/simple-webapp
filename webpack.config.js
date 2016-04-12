@@ -33,7 +33,7 @@ module.exports = {
             },
             {
                 test: /\.jsx?$/,
-                exclude: /(node_modules|bower_components)/,
+                exclude: /(node_modules)/,
                 loaders: [
                     'react-hot',
                     'babel?presets[]=stage-0,presets[]=react,presets[]=es2015'
