@@ -1,9 +1,9 @@
-# simple-webapp
+# Simple-webapp
 
 A simple web app with React, es6 and webpack
 
 # How to: 
-Open you terminal and navigate to where you want the project to reside
+Open your terminal and navigate to where you want the project to reside
 
 In the terminal do the following:
 
